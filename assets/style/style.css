@@ -52,13 +52,6 @@ input[type=submit] {
   text-align: center;
   margin-bottom: .5em;
 }
-
-/*css for images*/
-img{
-	border: 5% solid #555;
-	
-}
-
 .fanMonth{
   margin-left: 35%;
   text-align: center;
