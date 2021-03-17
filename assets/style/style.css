@@ -39,12 +39,10 @@ input[type=submit] {
 .pageLeft{
 float: left;
 width: 50%;
-background-color: red;
 }
 .pageRight{
 float: right;
 width: 50%;
-background-color: green;
 }
 /*css for page header*/
 .titleBar{
