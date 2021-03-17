@@ -1,3 +1,4 @@
+/*css for sign-up form*/
 input[type=text]{
   width: 80%;
   padding: 12px 20px;
@@ -8,15 +9,44 @@ input[type=text]{
   box-sizing: border-box;
   margin-left: 10%;
 }
-
 .signupFormWrap{
+  margin-left: 35%;
   text-align: center;
   background-color: #CCF57D;
   border-radius: 6px;
-  width: 40%; /*Make this wider in mobile code*/
-  margin-left:60%;
-  padding-bottom: 40%;
+  width: 60%; /*Make this wider in mobile code*/
+  padding-bottom: 5%;
 }
+.signupForm h2{
+  background-color: #26610F;
+  padding: 10px;
+  color: white;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #26610F;
+  color: white;
+  padding: 14px 20px;
+  margin: 2% 0;
+}
+
+/*page layout css; two sections, equally sized*/
+.page{
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+.pageLeft{
+float: left;
+width: 50%;
+background-color: red;
+}
+.pageRight{
+float: right;
+width: 50%;
+background-color: green;
+}
+/*css for page header*/
 .titleBar{
   padding: 1em;
   background-color:#60B03D;
