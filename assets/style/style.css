@@ -32,17 +32,17 @@ input[type=submit] {
 
 /*page layout css; two sections, equally sized*/
 .page{
- width: 100%;
- height: 100%;
- display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .pageLeft{
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
 .pageRight{
-float: right;
-width: 50%;
+  float: right;
+  width: 50%;
 }
 /*css for page header*/
 .titleBar{
@@ -52,3 +52,24 @@ width: 50%;
   text-align: center;
   margin-bottom: .5em;
 }
+
+/*css for images*/
+img{
+	border: 5% solid #555;
+	
+}
+
+.fanMonth{
+  margin-left: 35%;
+  text-align: center;
+  background-color: #CCF57D;
+  border-radius: 6px;
+  width: 60%; /*Make this wider in mobile code*/
+  padding-bottom: 5%;
+}
+.fanMonth h2{
+  background-color: #614a0f;
+  color: white;
+  padding: 10px;
+}
+
