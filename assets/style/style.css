@@ -1,7 +1,12 @@
 input[type=text]{
-  width: 40%;
+  width: 80%;
+  padding: 12px 20px;
   margin: 8px 0;
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px;
   box-sizing: border-box;
+  margin-left: 10%;
 }
 
 .signupFormWrap{
@@ -13,8 +18,9 @@ input[type=text]{
   padding-bottom: 40%;
 }
 .titleBar{
-  height:5%;
+  padding: 1em;
   background-color:#60B03D;
   color: white;
   text-align: center;
+  margin-bottom: .5em;
 }
