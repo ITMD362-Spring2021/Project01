@@ -1,0 +1,15 @@
+.signupForm{
+	display: inline-block;
+	text-align: right;
+	background-color: #CCF57D;
+	border-radius: 3px;
+	padding: 20px;
+	width:60%;
+	height: 70%
+}
+.titleBar{
+  text-align: center;
+  background-color: #CCF57D;
+  border-radius: 6px;
+  width: 90%;
+}
