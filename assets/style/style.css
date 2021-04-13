@@ -65,8 +65,23 @@ input[type=submit] {
   color: white;
   padding: 10px;
 }
-@media screen and (max-width: 720px) {
- .fanMonth{
-   background-color: #614a0f;
- }
+@media screen and (max-width: 550px){/*CSS focused on smartphones*/
+	img{
+	  max-width: 100%;
+	  height: auto;
+	}
+	.pageLeft{
+	  width: 100%;
+	}
+	.pageRight{
+	  width: 100%;
+	}
+	.signupFormWrap{
+	  width: 100%;
+	  margin-left: 0%;
+	}
+	.fanMonth{
+	  width: 100%;
+	  margin-left: 0%;
+	}
 }
