@@ -85,3 +85,24 @@ input[type=submit] {
 	  margin-left: 0%;
 	}
 }
+@media screen and (max-width: 1080px){/*media query for adjusting CSS for tablets to small laptops. similar to smartphone layout, but changes sizes of various elements of page*/
+	img{
+	  max-width: 100%;
+	  height: auto;
+	}
+	.signupFormWrap{
+	  float: right;
+	  width: 90%;
+	  margin-bottom: 5px;
+	}
+	.fanMonth{
+	  float: right;
+	  width: 90%;
+	}
+	h2{
+	  font-size: 200%;
+	}
+	label{
+	  font-size: 150%;
+	}
+}
