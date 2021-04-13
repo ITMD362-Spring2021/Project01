@@ -66,18 +66,7 @@ input[type=submit] {
   padding: 10px;
 }
 @media only screen and (max-width: 720px) {
- .signupFormWrap{
-  margin-left: 35%;
-  text-align: center;
-  background-color: #CCF57D;
-  border-radius: 6px;
-  width: 70%; /*This is wider in mobile code*/
-  padding-bottom: 5%;
- }
- img{
-	width: 20%;
- }
- .pageLeft{
-	width: 30%
+ .fanMonth{
+   background-color: #614a0f;
  }
 }
