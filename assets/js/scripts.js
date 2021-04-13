@@ -5,13 +5,13 @@ function validateSignupInputs()
   var email = document.getElementById('emailIn').value;
   if(firstName=="")
   {
-    alert("Error: Please enter your first name!");
+    alert("Error: Missing information, including first name!");
   }
   else if(lastName==""){
-  	alert("Error: Please enter your last name!");        
+  	alert("Error: Missing information, including last name!");        
   }
   else if(email=="")
   {
-	  alert("Error: Please enter your email address!");
+	  alert("Error: Missing information, including e-mail!");
   }
 }
