@@ -65,7 +65,7 @@ input[type=submit] {
   color: white;
   padding: 10px;
 }
-@media only screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
  .fanMonth{
    background-color: #614a0f;
  }
