@@ -66,43 +66,43 @@ input[type=submit] {
   padding: 10px;
 }
 @media screen and (max-width: 550px){/*CSS focused on smartphones*/
-	img{
-	  max-width: 100%;
-	  height: auto;
-	}
-	.pageLeft{
-	  width: 100%;
-	}
-	.pageRight{
-	  width: 100%;
-	}
-	.signupFormWrap{
-	  width: 100%;
-	  margin-left: 0%;
-	}
-	.fanMonth{
-	  width: 100%;
-	  margin-left: 0%;
-	}
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .pageLeft{
+     width: 100%;
+  }
+  .pageRight{
+    width: 100%;
+  }
+  .signupFormWrap{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .fanMonth{
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 @media screen and (max-width: 1080px){/*media query for adjusting CSS for tablets to small laptops. similar to smartphone layout, but changes sizes of various elements of page*/
-	img{
-	  max-width: 100%;
-	  height: auto;
-	}
-	.signupFormWrap{
-	  float: right;
-	  width: 90%;
-	  margin-bottom: 5px;
-	}
-	.fanMonth{
-	  float: right;
-	  width: 90%;
-	}
-	h2{
-	  font-size: 200%;
-	}
-	label{
-	  font-size: 150%;
-	}
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .signupFormWrap{
+    float: right;
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .fanMonth{
+    float: right;
+    width: 90%;
+  }
+  h2{
+    font-size: 200%;
+  }
+  label{
+    font-size: 150%;
+  }
 }
